@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact Us</title>
+    <style media="screen">
+      .topnav {
+        background-color: grey;
+        overflow: hidden;
+        }
+      .topnav a {
+        color: white;
+        float: left;
+        text-alignment: center;
+        display: block;
+        padding: 8px;
+        }
+        .topnav a:hover {
+          color: red;
+        }
+        .topnav input[type="text"], label[for="search"]{
+          float: right;
+          display: block;
+          padding: 8px;
+        }
+        .topnav input[type="text"]{
+          color: black;
+        }
+        .topnav label[for="search"]{
+          color: white;
+        }
+        .topnav a[class="active"]{
+          color: Blue;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="topnav">
+      <a href="index.html">Home</a>
+      <a href="ourstory.html">Our Story</a>
+      <a href="Stockists.html">Stockists</a>
+      <a href="suppliers.html">Suppliers</a>
+      <a class="active" href="contactus.html">Contact Us</a>
+      <input type="text" name="" value="&#128269;">
+      <label for="search">Search</label>
+    </div>
+<h1>Contact Us</h1>
+<p>Phone: 0421 878 569</p>
+<p>Email: mundane_nightmare@outlook.com.au</p>
+<form class="myform" action="mailto:mundane_nightmare@outlook.com.au" method="post" enctype="text/plain">
+  <label for="">Your Name</label>
+  <input type="Name" name="YourName" value=""><br>
+<label for="">Contact email</label>
+<input type="email" name="YourEmail" value=""><br>
+<label for="">Sign up to our newsletter</label>
+<input type="checkbox" name="" value=""><br><br>
+<label for="">Your Message</label><br><br>
+<label for="">Subject</label><br>
+<textarea name="YourSubject" rows="1" cols="30"></textarea><br>
+<label for="">Message</label><br>
+<textarea name="YourMessage" rows="10" cols="30"></textarea><br>
+<input type="submit" name="" value="sumbit">
+</form>
+  </body>
+</html>
